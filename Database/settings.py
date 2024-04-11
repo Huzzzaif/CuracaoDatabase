@@ -74,7 +74,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8100",  # Add the origins allowed to make requests
 ]
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8100']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8100','https://curacaodevicemgmt-test.azurewebsites.net']
 
 
 MIDDLEWARE = [
