@@ -19,7 +19,7 @@ from django.urls import path, include
 from curacao_devices_db.views import DepartmentsView, DevicesView, LocationsView, SignupView,  TransactionsView, VueView
 
 urlpatterns = [
-    path('', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('auth/', include('dj_rest_auth.urls')),
 
