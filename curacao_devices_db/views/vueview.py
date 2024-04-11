@@ -2,5 +2,5 @@
 
 from django.shortcuts import render
 
-def index(request):
+def VueView(request):
     return render(request, 'index.html')
