@@ -74,9 +74,10 @@ AUTH_USER_MODEL = 'curacao_devices_db.User'
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8100",  # Add the origins allowed to make requests
+    "http://localhost:8100",
+    "https://lively-wave-03aefd11e-preview.westus2.5.azurestaticapps.net"  # Add the origins allowed to make requests
 ]
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8100','https://curacaodevicemgmt-test.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8100','https://curacaodevicemgmt-test.azurewebsites.net',"https://lively-wave-03aefd11e-preview.westus2.5.azurestaticapps.net"]
 
 
 MIDDLEWARE = [
