@@ -23,7 +23,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 SECRET_KEY = 'django-insecure-jk==068(=1xsvmc*(rld(i%vn8-9*5^z2h1#u^g07b!u1epkwi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.azurewebsites.net','127.0.0.1']
 
